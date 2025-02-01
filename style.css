@@ -1,0 +1,178 @@
+.videoback{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+#myVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.one{
+    background-color: rgba(199,195,204,0.08);
+    border-radius: 20px;
+    animation-duration: 1s;
+    animation-name: an;
+
+}
+
+@keyframes an {
+    from {
+        margin-left: 70%;
+        width: 300%;
+
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+
+    }
+}
+.two{
+    background-color: rgba(199,195,204,0.08);
+    border-radius: 20px;
+    animation-duration: 1s;
+    animation-name: an;
+
+}
+
+@keyframes an {
+    from {
+        margin-left: 70%;
+        width: 300%;
+
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+
+    }
+}
+.three{
+    background-color: rgba(199,195,204,0.08);
+    border-radius: 20px;
+    animation-duration: 1s;
+    animation-name: an;
+
+}
+
+@keyframes an {
+    from {
+        margin-left: 70%;
+        width: 300%;
+
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+
+    }
+}
+.four{
+    background-color: rgba(199,195,204,0.08);
+    border-radius: 20px;
+    animation-duration: 1s;
+    animation-name: an;
+
+}
+
+@keyframes an {
+    from {
+        margin-left: 70%;
+        width: 300%;
+        opacity: 0;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+
+    }
+}
+.five{
+    background-color: rgba(199,195,204,0.08);
+    border-radius: 20px;
+    animation-duration: 1s;
+    animation-name: an;
+
+}
+
+@keyframes an {
+    from {
+        margin-left: 70%;
+        width: 300%;
+
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+
+    }
+}
+
+
+
+
+.heads{
+    color:white;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: btt;
+}
+
+@keyframes btt {
+    from {
+        text-shadow: 20px 20px 2px red;
+        text-shadow: 20px 20px 2px blue;
+
+    }
+
+    to {
+        text-shadow: 0px 0px 0px red;
+
+
+    }
+}
+
+
+img{
+    display:block;
+    height: 90%;
+    width: 90%;
+    margin: 20px;
+    margin-bottom: 30px;
+
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.img1{
+   height: 60%;
+    width: 60%;
+}
